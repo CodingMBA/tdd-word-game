@@ -1,0 +1,21 @@
+{
+  "name": "random-word-server",
+  "version": "1.0.0",
+  "description": "1. `cd` into the `random-word-server` directory (where this README is located).\r 2. Run `npm install`",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --forceExit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
